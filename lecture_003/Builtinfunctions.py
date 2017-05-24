@@ -94,7 +94,7 @@ print("isspace",statment1.isspace())
 
 
 
-#istitle
+#istitle(move to upper each letter affter space)
 print("isspace",statment1.title())
 
 
@@ -105,18 +105,18 @@ seq=("a","b","c")
 print("Sequence   :   ",s.join(seq))
 
 
-#len
+#len(calculate the length of string)
 statment2="abc"
 #leng=len(statment2)
 # print(len(statment1))
 
 
-#ljust
+#ljust(add spaces the left side of string)
 
 
 print("ljust : ",statment2.ljust(20))
 
-#rjust
+#rjust(add spaces to right of the string)
 
 print("rjust : ",statment2.rjust(20))
 
@@ -144,10 +144,10 @@ print("translate  :  ",strnn.translate(trantab))
 print("nmax  :  ",max(strnn))
 
 #min(print the index have minimum ascii value)
-print("nmax  :  ",min(strnn))
+print("min  :  ",min(strnn))
 
 
-#replace
+#replace(replace the pice of string we want to replce in the given content)
 
 print("replace   : ",strnn.replace('t','r'))
 
@@ -157,5 +157,7 @@ print("rfind  :  ",strnn.rfind('r'))
 #split(split from all places where given char occours)
 
 print("split ",strnn.split('i'))
+
+#isdigit(checks the given string is digit or not)
 
 
