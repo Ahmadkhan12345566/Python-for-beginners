@@ -15,6 +15,9 @@ Some Built-in Methods
     find
     isalnum
     isalpha
+    expandtab
+    islower
+    
     index
     istitle
     min
@@ -62,3 +65,97 @@ print("isalnum",str8.isalnum())
 #isalpha(checks the given string is alpahabet or not return bool dessions)
 alpha="ahmad"
 print("alpha   :",alpha.isalpha())
+
+
+
+#expandtab(increase the tab where we add \t berfor in code)
+
+statment1="i like\tpythone "
+
+print( "with expands",statment1.expandtabs(45))
+print("without expands", statment1)
+
+#islower (cheks the whole string is in lower case or not)
+
+
+print("islower",statment1.islower());
+     
+     
+ #isnumeric(cheks the whole string is in numeric case or not)
+
+
+print("isnumeric",statment1.isnumeric())    
+
+
+
+#isspace(cheks the whole string have case or not)
+
+print("isspace",statment1.isspace())
+
+
+
+#istitle
+print("isspace",statment1.title())
+
+
+#join(combien the sequence of strings)
+
+s="-"
+seq=("a","b","c")
+print("Sequence   :   ",s.join(seq))
+
+
+#len
+statment2="abc"
+#leng=len(statment2)
+# print(len(statment1))
+
+
+#ljust
+
+
+print("ljust : ",statment2.ljust(20))
+
+#rjust
+
+print("rjust : ",statment2.rjust(20))
+
+
+#lstrip(remove string from left)
+
+print("rjust : ",statment2.lstrip("a"))
+
+#rstrip(remove string from right)
+print("rjust : ",statment2.rstrip("c"))
+
+#translate
+
+intab="aeiou"
+
+outtab="12345"
+
+trantab=str.maketrans(intab,outtab)
+
+strnn="this is string "
+
+print("translate  :  ",strnn.translate(trantab))
+
+#max(print the index have gretest ascii value)
+print("nmax  :  ",max(strnn))
+
+#min(print the index have minimum ascii value)
+print("nmax  :  ",min(strnn))
+
+
+#replace
+
+print("replace   : ",strnn.replace('t','r'))
+
+#rfind (find the right msot index of this character)
+print("rfind  :  ",strnn.rfind('r'))
+
+#split(split from all places where given char occours)
+
+print("split ",strnn.split('i'))
+
+
