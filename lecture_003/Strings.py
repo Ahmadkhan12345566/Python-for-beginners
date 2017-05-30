@@ -50,5 +50,8 @@ text="%d is num  "%(45)
 
 print(text)
 
+#use of Format
+"The sum of 1 + 2 is {0}".format(1+2)
 
+#
 

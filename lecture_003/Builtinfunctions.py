@@ -159,5 +159,10 @@ print("rfind  :  ",strnn.rfind('r'))
 print("split ",strnn.split('i'))
 
 #isdigit(checks the given string is digit or not)
+print("isdigit",strnn.isdigit());
+#Like rfind() but raises ValueError when the substring sub is not found.
 
 
+
+#zfill assign the num you enter and save then equal 
+print( "432".zfill(4))
