@@ -16,7 +16,6 @@ For loop
 """
 
 
-
 num=int(input("enter number : \n"))
 
 while num<5:
@@ -35,5 +34,5 @@ for var in num:
 print("In line \n")
 for var in num:
     print(var,end='_')
-    
+   
 

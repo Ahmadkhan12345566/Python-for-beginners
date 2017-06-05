@@ -5,6 +5,9 @@ Created on Sun May 28 22:27:47 2017
 @author: Ahmad khan
 """
 
+### EXAMPLE PYTHON MODULE
+# Define some variables:
+
 stat="Your grage is"
 num=int(input("Enter Your number : \n"))
 
